@@ -1,0 +1,21 @@
+.example-card {
+
+  table {
+    width: 100%;
+  }
+
+  .example-container {
+    display: flex;
+    flex-direction: column;
+
+    & > * {
+      width: 100%;
+    }
+  }
+
+  .search-wrapper {
+    float: right;
+    width: 20%;
+    padding: 20px;
+  }
+}
